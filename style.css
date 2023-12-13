@@ -1,0 +1,106 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+text-align: center;
+}
+/*Header*/
+
+header
+{text-align: center;
+}
+
+/*containers*/
+article {
+padding:50px 0;
+}
+article div 
+{text-align:center; width:100%;}
+p {line-height: 1.5;}
+div {
+  margin:auto;
+  width:600px;
+  color:green;
+}
+
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display:block
+  margin-left:auto;
+  margin-right:auto;
+}
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+/* Header Section*/
+h1
+{text-align: center;
+font-size: 35px;}
+a
+{text-align: center;
+color:#d62828
+}
+
+/* About section */
+h2
+{text-align: center;
+ font-size:25px ;
+}
+h3
+{text-align: center;
+font-size: 15px;}
+p
+{text-align: center ;
+font-size: 12px;}
+/* center unordered list */
+ul 
+{text-align:center;
+  font-size: 12px;
+ list-style-position: inside;
+}
+li
+{text-align: center;
+list-style-position: inside;
+font-size: 12px;}
+/* center ordered list a different way add a comma*/
+ol,li
+{text-align: center;
+ list-style-position: inside;
+font-size: 12px;}
+
+/* Circle solution*/
+.image-circle
+{
+  border-color: #003049;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+/* Contact */
+a:hover 
+{color: #f77f00;}

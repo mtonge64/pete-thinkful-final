@@ -1,0 +1,1 @@
+This is a webpage that list three images of Pete Thinkful portfolio. There are also links to pinterest.com and linkedin.com and instagram.com. The links go to the web sites. They do not link to Pete's profile becasue no profile link was provided for this assignment. This page is for practice only. 
